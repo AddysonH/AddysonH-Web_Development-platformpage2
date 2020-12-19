@@ -2,37 +2,34 @@
     border:2px solid red;
 } */
           
-                 /* Diagonal style */
+                 /* circle style */
                      body{
                      background-color:rgb(207, 207, 207);
-                     height: 100%;
-                     margin: 40px auto 100px auto;
-                    }
-                    .main-div{
-                     border-top: 3px solid #130547;
-                     border-left: 3px solid #130547;
-                     border-bottom: 3px solid #51a1fc;
-                     border-right: 3px solid #51a1fc;
-                     width:500px;
-                     height:476px;
-                     margin:0 auto ;
-                     top:50%;
-                     position:relative;
-                     overflow: hidden;
-                  }
+                     text-align:center;
+                        }
+                    
                     .art-side{
-                     height:101vh;
-                     background:#130547;
-                     clip-path:polygon(0 0%, 100% 0, 100% 66%, 0 66%);
-                     position:absolute;
-                     width:100%;
+                     background-color:#130547;
+                     width: 50%;
+                     height:0;
+                     font-size:20px;
+                     color: #fff;
+                     text-align:center;
+                     line-height:0;
+                     padding:25% 0;
+                     border-radius:50%;
+                     text-align: center;
                       }
                     .code-side{
-                     height:101vh;
-                     background:#51a1fc;
-                     clip-path:polygon(0% 0%, 100% 0, 100% 0%, 0 66%);
-                     position:absolute;
-                     width:100%;
+                       background-color:#130547;
+                     width: 50%;
+                     height:0;
+                     font-size:20px;
+                     color: #fff;
+                     text-align:center;
+                     line-height:0;
+                     padding:25% 0;
+                     border-radius:50%;
                       }
                       /* Hover section */
                       .code-side:hover{
@@ -42,44 +39,13 @@
                           background-color:#2e274d;
                       }
 
-                h1{
-                    margin:0;
-                }
+                      a{
+                          text-decoration: none;
+                      }
 
-                p{
-                    font-size: 30px;
-                    position:absolute;
-                   top:315px;
-                   right:50px;
-                   width:200px;
-                   height:100px;
-                   color:white;
-                   font-size: 40px;
-                }
-                a{
-                    margin:0;
-                }
-                .art-heading{
-                   position:absolute;
-                   top:300px;
-                   right:-15px;
-                   width:200px;
-                   height:100px;
-                   color:white;
-                   font-size: 50px;
-                }
-                .software-heading{
-                   position:absolute;
-                   top:100px;
-                   right:260px;
-                   width:200px;
-                   height:100px;
-                   color:black;
-                   font-size: 40px;
-                }
-                .whoIAm{
-                    margin-bottom:50px;
-                    text-align:center;
-                }
+                
+
                 
                 
+                
+               
