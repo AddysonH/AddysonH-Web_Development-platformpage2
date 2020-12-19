@@ -6,7 +6,7 @@
                      body{
                      background-color:rgb(207, 207, 207);
                      height: 100%;
-                     margin: 120px auto 120px auto;
+                     margin: 40px auto 100px auto;
                     }
                     .main-div{
                      border-top: 3px solid #130547;
@@ -76,6 +76,10 @@
                    height:100px;
                    color:black;
                    font-size: 40px;
+                }
+                .whoIAm{
+                    margin-bottom:50px;
+                    text-align:center;
                 }
                 
                 
