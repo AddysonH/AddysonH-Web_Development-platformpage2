@@ -7,39 +7,49 @@
                      background-color:rgb(207, 207, 207);
                      text-align:center;
                         }
+
+                    .intro-title{
+                     margin-bottom:50px;
+                     margin-top: 50px;
+                    }
+                    
+                    .code-side{
+                     background-color:#7195be;
+                     width:300px;
+                     height:300px;
+                     margin:0 auto 20px auto; 
+                     color: black;
+                     border:3px solid #130547;
+                     padding-left:0px;
+                     padding-right:0px;
+                    }
+                    .dev-title{
+                        padding-bottom:260px;
+                    }
                     
                     .art-side{
                      background-color:#130547;
-                     width: 50%;
-                     height:0;
-                     font-size:20px;
-                     color: #fff;
+                     width:300px;
+                     height:300px;
                      text-align:center;
-                     line-height:0;
-                     padding:25% 0;
-                     border-radius:50%;
-                     text-align: center;
-                      }
-                    .code-side{
-                       background-color:#130547;
-                     width: 50%;
-                     height:0;
-                     font-size:20px;
+                     margin:0 auto 20px auto;    
                      color: #fff;
-                     text-align:center;
-                     line-height:0;
-                     padding:25% 0;
-                     border-radius:50%;
-                      }
+                     border:3px solid #7195be;
+
+                    }
+                    
+
                       /* Hover section */
                       .code-side:hover{
-                          background-color: #7195be
+                          background-color: #91accc;
+                          color: black;
                       }
                       .art-side:hover{
-                          background-color:#2e274d;
+                          background-color:#241b42;
+                          color:white;
                       }
 
-                      a{
+                      button{
                           text-decoration: none;
                       }
 
