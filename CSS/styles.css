@@ -14,7 +14,8 @@
                     }
                     
                     .code-side{
-                     background-color:#7195be;
+                     background-image:url("../images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
+                     background-size:480px, 480px;
                      width:300px;
                      height:300px;
                      margin:0 auto 20px auto; 
@@ -28,16 +29,27 @@
                     }
                     
                     .art-side{
-                     background-color:#130547;
-                     width:300px;
-                     height:300px;
-                     text-align:center;
-                     margin:0 auto 20px auto;    
-                     color: #fff;
-                     border:3px solid #7195be;
-
+                        background-image:url("../images/GalaxyButterflies.jpg");
+                        background-size:480px, 480px;
+                        width:300px;
+                        height:300px;
+                        text-align:center;
+                        margin:0 auto 20px auto;    
+                        color: #fff;
+                        border:3px solid #7195be;
+                        
                     }
+                    /* @media section */
                     
+                    @media (max-width: 800px){
+                        .code-side{
+                         margin: 5% 15% 5% 15%;
+                        }
+                        .art-side{
+                            margin: 5% 15% 5% 15%;
+
+                        }
+                    }
 
                       /* Hover section */
                       .code-side:hover{
