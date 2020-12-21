@@ -2,67 +2,48 @@
     border:2px solid red;
 } */
           
-                 /* circle style */
-                     body{
-                     background-color:rgb(207, 207, 207);
-                     text-align:center;
-                        }
-
                     .intro-title{
                      margin-bottom:50px;
                      margin-top: 50px;
                     }
-                    
+                    body{
+                        background-color: rgb(207, 207, 207);
+                    }
                     .code-side{
-                     /* background-image:url("../images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg"); */
-                     /* background-size:480px, 480px; */
-                     background-color: rgb(5, 5, 27);
-                     width:300px;
-                     height:300px;
-                     /* margin:10% auto 10% auto;     */
-                     color: black;
-                     border:3px solid #130547;
-                     padding-left:0px;
-                     padding-right:0px;
+                        margin:0 auto 20px auto;
+                        padding:0px
                     }
-                    .dev-title{
-                        padding-bottom:260px;
-                    }
-                    
                     .art-side{
-                        /* background-image:url("../images/GalaxyButterflies.jpg"); */
-                        background-color: rgb(5, 5, 27);
-                        /* background-size:480px, 480px; */
-                        width:300px;
-                        height:300px;
-                        text-align:center;
-                        /* margin:10% auto 10% auto;     */
-                        color: #fff;
-                        border:3px solid #7195be;
+                        margin:0 auto 20px auto;
+                        padding:0px
+
                     }
-                    
-                    /* @media section */
-                    
-                         
-                        
+
+                    .code-header{
+                        margin:0;
+                        padding-bottom: 235px;
+                    }
+
+                    .card{
+                        border:2px solid black;
+                    }
+
+                   .card-body{
+                       padding:0;
+                   }
 
                       /* Hover section */
-                      .code-side:hover{
+
+                    .card:hover{
+                        background-color:#1b0957;
+                          color:white;
+                    }
+
+                      /* .code-side:hover{
                           background-color: #91accc;
                           color: black;
                       }
                       .art-side:hover{
                           background-color:#241b42;
                           color:white;
-                      }
-
-                      button{
-                          text-decoration: none;
-                      }
-
-                
-
-                
-                
-                
-               
+                      } */
