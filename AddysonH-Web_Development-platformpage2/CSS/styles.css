@@ -1,0 +1,49 @@
+/* *{
+    border:2px solid red;
+} */
+          
+                    .intro-title{
+                     margin-bottom:50px;
+                     margin-top: 50px;
+                    }
+                    body{
+                        background-color: rgb(207, 207, 207);
+                    }
+                    .code-side{
+                        margin:0 auto 20px auto;
+                        padding:0px
+                    }
+                    .art-side{
+                        margin:0 auto 20px auto;
+                        padding:0px
+
+                    }
+
+                    .code-header{
+                        margin:0;
+                        padding-bottom: 235px;
+                    }
+
+                    .card{
+                        border:2px solid black;
+                    }
+
+                   .card-body{
+                       padding:0;
+                   }
+
+                      /* Hover section */
+
+                    .card:hover{
+                        background-color:#1b0957;
+                          color:white;
+                    }
+
+                      /* .code-side:hover{
+                          background-color: #91accc;
+                          color: black;
+                      }
+                      .art-side:hover{
+                          background-color:#241b42;
+                          color:white;
+                      } */
