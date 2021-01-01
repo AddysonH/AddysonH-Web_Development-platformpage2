@@ -92,6 +92,12 @@ hr{
         width:200px;
         height:100px;
     }
+    .tinDog{
+        float:right;
+        margin-left:30px;
+        width:100px;
+        height:200px;
+    }
     .code-description{
         margin: 0px auto 0px auto;
          }
