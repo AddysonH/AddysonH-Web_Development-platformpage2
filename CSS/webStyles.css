@@ -80,24 +80,24 @@ hr{
         text-align:left;
         line-height: 2;
     }
-    .kanban_thumbnail, .GRMblr{
+    .kanban_thumbnail{
         float:left;
         margin-right:30px;
         width:200px;
         height:100px;
     }
-    /* .bug-log{
+    .bug-log, .GRMblr{
         float:right;
         margin-left:30px;
         width:200px;
         height:100px;
-    } */
-    /* .tinDog{
+    }
+    .tinDog{
         float:right;
         margin-left:30px;
         width:100px;
         height:200px;
-    } */
+    }
     .code-description{
         margin: 0px auto 0px auto;
          }
