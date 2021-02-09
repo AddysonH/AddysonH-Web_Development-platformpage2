@@ -6,15 +6,28 @@ body{
 }
 
 /* Inro title */
+    .intro-title{
+        color: rgb(221, 219, 219);
+        position: absolute;
+        margin-top:35vh;
+    }
 
-.intro-title{
-    color: rgb(221, 219, 219);
-    position: absolute;
-    margin-top:35vh;
-}
-@media screen and (max-width: 1000px){
+ @media only screen and (min-device-width:320px) and (max-device-width:480px) {
     .intro-title{
         margin-top:10vh;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1024px){
+    .intro-title{
+        margin-top:6vh;
+    }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width:1366px){
+    .intro-title{
+        margin-top: 30vh;
     }
 }
 
@@ -27,11 +40,23 @@ body{
     color:rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
-
-@media screen and (max-width:1000px){
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
     .card{
         margin-top:20vh;
         margin-bottom:3vh;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .card{
+        margin-top:20vh;
+        margin-bottom:4vh;
+    }
+}
+
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px){
+    .card{
+        margin-top:10vh;
     }
 }
 
@@ -67,6 +92,12 @@ body{
     }
 }
 
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px){
+    .skills{
+        margin: 600px 350px 50px 1px;
+    }
+}
+
 .projects{
     position:absolute;
     margin: 380px 0px 0px 500px;
@@ -75,6 +106,12 @@ body{
     .projects{
         position:static;
         margin:0px 0px 0px 0px;
+    }
+}
+
+@media screen and (min-device-width:1024px) and (max-device-width:1366px){
+    .projects{
+        margin: 650px 0px 0px 300px;
     }
 }
 
