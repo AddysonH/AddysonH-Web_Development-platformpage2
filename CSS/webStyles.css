@@ -11,6 +11,11 @@ body{
         position: absolute;
         margin-top:35vh;
     }
+    @media only screen and (min-width:1824px){
+        .intro-title{
+            margin-top:38vh;
+        }
+    }
 
  @media only screen and (min-device-width:320px) and (max-device-width:480px) {
     .intro-title{
@@ -59,6 +64,12 @@ body{
         margin-top:10vh;
     }
 }
+@media only screen and (min-width:1824px){
+    .card{
+        margin-top:7vh;
+        margin-bottom:4vh;
+    }
+}
 
 /* profile section */
 
@@ -85,16 +96,21 @@ body{
     color: rgb(221, 219, 219);
 }
 
-@media screen and (max-width:1000px){
+/* @media screen and (max-width:1000px){
     .skills{
     position:static;
     margin:0px 0px 50px 1px ;
     }
-}
+} */
 
 @media only screen and (min-device-width:1024px) and (max-device-width:1366px){
     .skills{
         margin: 600px 350px 50px 1px;
+    }
+}
+@media only screen and (min-width:1824px){
+    .skills{
+        margin: 350px 1100px 500px 0px;
     }
 }
 
@@ -102,16 +118,22 @@ body{
     position:absolute;
     margin: 380px 0px 0px 500px;
 }
-@media screen and (max-width:1000px){
+/* @media screen and (max-width:1000px){
     .projects{
         position:static;
         margin:0px 0px 0px 0px;
     }
-}
+} */
 
 @media screen and (min-device-width:1024px) and (max-device-width:1366px){
     .projects{
         margin: 650px 0px 0px 300px;
+    }
+}
+
+@media only screen and (min-width:1824px){
+    .projects{
+        margin: 500px 0px 0px 700px;
     }
 }
 
